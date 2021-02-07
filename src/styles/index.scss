@@ -1,0 +1,64 @@
+@import "~bootstrap/scss/bootstrap.scss";
+
+/* 
+
+    You can write your own styles here...
+    
+    
+    ...Or you can use the import command to include 
+    other sylesheets into your bunde as well, e.j:
+    
+    import 'relative/path/to/stylesheet.scss';
+
+*/
+
+.footer {
+ 
+    position: fixed;
+ 
+    bottom: 0;
+ 
+    width: 100%;
+ 
+    height: 55px;
+ 
+    background-color: #DFDFDF;
+ 
+}
+
+Body {
+  background-image: url(../img/plantbackground2.jpg);
+  background-size: 100%;
+    background-attachment: fixed;
+};
+
+#holder {
+    background-color: white;
+    opacity: 0.8;
+       position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 600px;
+  height: 500px;
+  border-radius: 15px;
+  align-items: center;
+}
+
+h2{
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+}
+
+p, li{
+    font-family: 'Merriweather', serif;
+    font-size:20px;
+}
+
+#holding {
+    //margin-left: 0px;
+   // margin-right: 0px;
+    justify-content: center;
+}
